@@ -11,7 +11,7 @@ http://desolate-castle-78423.herokuapp.com/
 Слева в админке есть менюха, там таблички новостей и комментов. 
 
 В новость можно добавить картинку из админки. 
-Моджно зайти сюда http://desolate-castle-78423.herokuapp.com/admin/news
+Можно зайти сюда http://desolate-castle-78423.herokuapp.com/admin/news
 Потом редактировать нужную запись и там можно закинуть пикчу.
 Дисклеймер: локально работает, в хироку нет возможности быстро закостылить загрузку файлов. Но, нашла 2 решения:
 1. https://devcenter.heroku.com/articles/simple-file-upload#view-your-dashboard - типа через облако
