@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\News;
+use App\Http\Controllers\Comments;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::resource('/', News::class);
+Route::post('comment', [Comments::class, 'store'])->name('comment');
+Route::post('fakerCreate', [News::class, 'fakerCreate'])->name('fakerCreate');

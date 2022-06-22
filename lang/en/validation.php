@@ -166,5 +166,6 @@ return [
     */
 
     'attributes' => [],
+    'captcha' => 'Captcha is wrong, try again'
 
 ];
