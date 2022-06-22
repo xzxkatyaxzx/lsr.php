@@ -26,7 +26,7 @@
                 @if(strpos($item['img'], 'picsum') !== false)
                     <img style="max-width: 100px;" src="{{$item['img']}}">
                 @else ()
-                    <img style="max-width: 100px;" src="{{secure_asset('/storage/' . $item['img'])}}">
+                    <img style="max-width: 100px;" src="{{asset('/storage/' . $item['img'])}}">
                 @endif
             @endif
             {{$item['text']}}
